@@ -1,0 +1,34 @@
+:root {
+    --bg-color: rgb(75, 75, 75, 0.5);
+    --scroll-color: rgb(46, 46, 46, 0.5);
+
+    --header-bg: rgba(58, 58, 58, 0.5);
+    --header-side-bg: rgb(58, 58, 58, 0.5);
+    --header-side-right: rgb(43, 43, 43, 0.5);
+    --header-hover-bg: rgb(75, 75, 75, 0.5);
+    --header-hover-color: rgb(44, 44, 44, 0.5);
+
+    --hr-color: white;
+
+    --scrollToTop-bg: gray;
+
+    --footer-color: white;
+    --footer-bg: rgba(58, 58, 58, 0.5);
+
+    --btn-bg: rgba(94, 94, 94, 0.5);
+    --btn-bg-hover: rgb(97, 97, 97, 0.5);
+
+    --mobile-bg-color: var(--bg-color);
+    --mobile-header-bg: var(--header-bg);
+    --mobile-header-side-bg: var(--header-side-bg);
+    --mobile-btn-bg: var(--btn-bg);
+    --mobile-btn-bg-hover: var(--btn-bg-hover);
+    --mobile-footer-bg: var(--footer-bg);
+}
+
+/* GRAY FILTER */
+
+.icon {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}

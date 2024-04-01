@@ -1,0 +1,73 @@
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-color: var(--header-bg);
+    padding: 1% 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    z-index: 10;
+}
+
+.rest-body {
+    padding: 25% 10px;
+    background-color: rgba(255, 0, 0, 0.37);
+    background-color: transparent;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+    margin-right: 20px;
+    transition: 0.5s;
+    transition: 0.5s;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.header a:hover {
+    background-color: var(--header-hover-bg);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        position: relative;
+    }
+
+    .header a {
+        display: block;
+        float: none;
+        text-align: center;
+        padding: 10 5px;
+        font-weight: normal;
+    }
+
+    .header-right {
+        float: none;
+    }
+
+    .logo {
+        font-size: 50%;
+    }
+
+}
+
+.hidden {
+    transition: 1s;
+    display: none;
+}
