@@ -19,31 +19,6 @@
   /*border-radius: 5px;*/
 }
 
-div.blur {
-  background-color: aqua;
-  aspect-ratio: 1;
-  filter: blur(100px);
-  position: sticky;
-}
-
-div.blur1 {
-  width: 100px;
-  top: 500px;
-  left: 400px;
-}
-
-div.blur2 {
-  width: 50px;
-  top: 200px;
-  left: 900px;
-}
-
-div.blur3 {
-  width: 150px;
-  top: 800px;
-  left: 1500px;
-}
-
 body {
   position: absolute;
   top: -220vh;
