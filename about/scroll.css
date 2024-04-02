@@ -28,13 +28,18 @@ body {
   padding: 0;
   margin: 0;
   text-align: center;
+  user-select: none;
 }
 
 section {
   display: grid;
   place-items: center;
   align-content: center;
-  min-height: 100vh;
+  padding: 0;
+  margin-top: 50vh;
+  height: 250px;
+  background-color: #323232;
+  background: linear-gradient(126deg, rgba(75, 193, 236, 0.1) 0%, rgba(31, 31, 31, 0.1) 100%);
 }
 
 @media (prefers-reduced-motion) {
@@ -58,5 +63,9 @@ section {
 
 .title {
   margin: 100px;
+  margin-bottom: 80vh;
   font-size: 130px;
+  background: -webkit-linear-gradient(#eee, #323232);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
