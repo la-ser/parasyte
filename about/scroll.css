@@ -35,9 +35,9 @@ section {
   display: grid;
   place-items: center;
   align-content: center;
-  padding: 0;
+  padding: 10px;
   margin-top: 50vh;
-  height: 250px;
+  min-height: 250px;
   background-color: #323232;
   background: linear-gradient(126deg, rgba(75, 193, 236, 0.1) 0%, rgba(31, 31, 31, 0.1) 100%);
 }
@@ -50,7 +50,7 @@ section {
 
 .hidden {
   opacity: 0;
-  filter: blur(5px);
+  filter: blur(10px);
   transition: all 1s;
   transform: translateX(-100%);
 }
@@ -68,4 +68,18 @@ section {
   background: -webkit-linear-gradient(#eee, #323232);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+section img {
+  height: 500px;
+  aspect-ratio: 2;
+  left: 0;
+  border-radius: 30px;
+  padding-bottom: 1em;
+  filter: blur(5px);
+  transition: all 0.4s;
+}
+
+section img:hover {
+  filter: blur(0px);
 }
